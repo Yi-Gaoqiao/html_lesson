@@ -1,0 +1,124 @@
+/*CSS*/
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(100, 100, 100, 0.8);
+    color: white;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+.flexbox {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    height: 120px;
+}
+li a {
+    font-size: 18px;
+    display: flex;
+    height: 120px;
+    padding: 0 20px;
+    margin: 0 10px;
+    align-items: center;
+    transition: all 0.5s;
+}
+li :hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.top-wrapper {
+    background-image: url("background_image.png");
+    background-size: cover;
+    padding-top: 450px;
+    padding-bottom: 400px;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+.serch-wrapper {
+    height: 2100px;
+}
+h2 {
+    font-size: 40px;
+}
+.section {
+    border-bottom: gray solid 1px;
+}
+h3 {
+    font-size: 25px;
+}
+ .items {
+    display: flex;
+    flex-direction: row;
+} 
+.items-1 {
+    flex-direction: column;
+    text-align: center;
+    width: 33%;
+    height: 500px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.items-1:hover {
+    border-top: gray solid 5px;
+    border-bottom: gray solid 5px;
+}
+.items-1 img {
+    width: 250px;
+}
+.item-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.item-explain {
+    font-size: 18px;
+    display: inline-block;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.items-2 {
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    padding-bottom: 80px;
+}
+.items-2:hover {
+    border-top: gray solid 5px;
+    border-bottom: gray solid 5px;
+}
+.items-2 img {
+    width: 200px;
+    vertical-align: middle;
+}
+.infoseek {
+    padding-top: 20%;
+    padding-bottom: 20.8%;
+}
+
+footer {
+    background-color: rgba(100, 100, 100, 0.8);
+    height: 100px;
+    color: white;
+}
+footer h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
