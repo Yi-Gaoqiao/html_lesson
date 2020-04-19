@@ -43,15 +43,15 @@ a {
     color: white;
 }
 .top-wrapper {
-    background-image: url("background_image.jpg");
+    background-image: url("background_image.png");
     background-size: cover;
-    padding-top: 380px;
-    padding-bottom: 350px;
+    padding-top: 450px;
+    padding-bottom: 400px;
     color: rgba(255, 255, 255, 0.9);
     text-align: center;
 }
 .serch-wrapper {
-    height: 1900px;
+    height: 2100px;
 }
 h2 {
     font-size: 40px;
